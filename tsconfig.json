@@ -17,11 +17,11 @@
         "moduleResolution": "node",
         "importHelpers": true,
         "paths": {
-            "@app/naitec-formly": ["projects/naitec-formly/src/public-api.ts"],
+            "@nglib/naitec-formly": ["projects/naitec-formly/src/public-api.ts"],
             "naitec-formly": ["dist/naitec-formly"],
-            "@app/naitec-plugin": ["projects/naitec-plugin/src/public-api.ts"],
+            "@nglib/naitec-plugin": ["projects/naitec-plugin/src/public-api.ts"],
             "naitec-plugin": ["dist/naitec-plugin"],
-            "@app/naitec-shared": ["projects/naitec-shared/src/public-api.ts"],
+            "@nglib/naitec-shared": ["projects/naitec-shared/src/public-api.ts"],
             "naitec-shared": ["dist/naitec-shared"]
         },
         "target": "ES2022",

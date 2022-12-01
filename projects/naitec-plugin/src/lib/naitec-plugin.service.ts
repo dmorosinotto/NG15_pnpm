@@ -1,9 +1,11 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable(/*{
+    providedIn: "root",
+}*/)
 export class NaitecPluginService {
-
-  constructor() { }
+    public rnd = Math.random();
+    constructor() {
+        console.warn(this.constructor.name, "instance created", this.rnd);
+    }
 }
